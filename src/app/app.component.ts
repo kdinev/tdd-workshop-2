@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { IGX_INPUT_GROUP_DIRECTIVES, IgxButtonDirective } from 'igniteui-angular';
 
 @Component({
@@ -6,7 +7,8 @@ import { IGX_INPUT_GROUP_DIRECTIVES, IgxButtonDirective } from 'igniteui-angular
   standalone: true,
   imports: [
     IGX_INPUT_GROUP_DIRECTIVES,
-    IgxButtonDirective
+    IgxButtonDirective,
+    FormsModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
